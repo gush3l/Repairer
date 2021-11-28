@@ -1,0 +1,39 @@
+Messages:
+  noperm: "&6&lRepairer &8&l| &f&lYou can't do that!"
+  oncooldownhand: "&6&lRepairer &8&l| &f&lYou can't use the repair hand command yet! You need to wait %TimeLeftHand% seconds!"
+  oncooldownall: "&6&lRepairer &8&l| &f&lYou can't use the repair all command yet! You need to wait %TimeLeftAll% seconds!"
+  invaliditem: "&6&lRepairer &8&l| &f&lThe item in your hand cannot be repaired!"
+  repairedhand: "&6&lRepairer &8&l| &f&lThe item in your hand has been repaired!"
+  repairhandcantafford: "&6&lRepairer &8&l| &f&lYou don't afford to execute a repair hand!"
+  repairedall: "&6&lRepairer &8&l| &f&lThe items in your inventory have been repaired!"
+  repairallcantafford: "&6&lRepairer &8&l| &f&lYou don't afford to execute a repair all!"
+  noitemtorepair: "&6&lRepairer &8&l| &f&lYou don't have any items that need repairing."
+  otherhand: "&6&lRepairer &8&l| &f&lRepaired the item in the hand of that player."
+  otherall: "&6&lRepairer &8&l| &f&lRepaired the items in the inventory of that player."
+  otherhandinvalid: "&6&lRepairer &8&l| &f&lCouldn't repair the item that was in the player's hand."
+  otherallinvalid: "&6&lRepairer &8&l| &f&lThe player doesn't have any item to repair in their inventory."
+  notonline: "&6&lRepairer &8&l| &f&lThis player is not online!"
+  reload: "&6&lRepairer &8&l| &f&lYou reloaded the config.yml file!"
+  notplayer: "&6&lRepairer &8&l| &f&lRepair commands can only be executed in-game!"
+  invalidsyntax: "&6&lRepairer &8&l| &f&lUnknown command! See commands /repairer help"
+  help:
+    - '&8&m+--------------------------------------------+'
+    - '&f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &f &6&lRepair&e&ler
+    &f&lCommands'
+    - ''
+    - '   &7&l- &e&l/repair hand (player) &f&lrepairer.hand'
+    - '   &4&l!&c&l! &6&oYou need repairer.hand.other to repair hand'
+    - '   &6&ofor another player'
+    - ''
+    - '   &7&l- &e&l/repair all (player) &f&lrepairer.all'
+    - '   &4&l!&c&l! &6&oYou need repairer.all.other to repair all'
+    - '   &6&ofor another player'
+    - ''
+    - '   &7&l- &e&l/repair reload &f&lrepairer.reload'
+    - '&8&m+--------------------------------------------+'
+Settings:
+  repairhandcooldown: "10"
+  repairhandcost: "100"
+  repairallcooldown: "30"
+  repairallcost: "3600"
+

@@ -1,0 +1,8 @@
+name: Repairer
+version: ${project.version}
+main: me.gushel.repairer.Repairer
+depend: [Vault]
+commands:
+  repairer:
+    description: Base Command Repairer
+    aliases: [repair]
